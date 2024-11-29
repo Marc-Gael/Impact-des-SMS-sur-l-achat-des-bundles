@@ -100,7 +100,7 @@ Pour visualiser les tendances des achats des abonnés, un Tableau Croisé Dynami
 ### Capture d'écran du TCD :
 Voici une vue du TCD montrant la répartition des achats par type :
 
-![TCD Abonnes](asset/TCD.png)
+![TCD Abonnés](assets/TCD.png)
 
 ### Analyse du TCD
 Le TCD a permis d'identifier les comportements des abonnés :
