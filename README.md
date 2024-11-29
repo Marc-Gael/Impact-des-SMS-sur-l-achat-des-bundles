@@ -74,7 +74,6 @@ in
 ```
 
 
-
 ---
 
 ## 🛠️ Outils et Technologies Utilisées
@@ -88,6 +87,27 @@ in
 ## ✨ Pourquoi ce projet est fun ?
 
 C'est plus qu'un simple projet de transformation de données, c'est une véritable **aventure** dans l'analyse des comportements clients ! Grâce à ce projet, nous avons pu extraire des informations sur les comportements d'achat des clients, comme la fréquence des achats et les tendances mensuelles.
+
+
+## Résultats visuels : Tableau Croisé Dynamique (TCD)
+
+Pour visualiser les tendances des achats des abonnés, un Tableau Croisé Dynamique a été créé. Ce TCD permet de distinguer les abonnés ayant acheté par habitude de ceux ayant acheté grâce à un SMS. Voici la structure du TCD :
+
+- **Lignes :** Abonnés
+- **Colonnes :** Type d'achat ("Habitude" ou "SMS")
+- **Valeurs :** Nombre d'achats
+
+### Capture d'écran du TCD :
+Voici une vue du TCD montrant la répartition des achats par type :
+
+![TCD Abonnés](chemin/vers/ton/image.png)
+
+### Analyse du TCD
+Le TCD a permis d'identifier les comportements des abonnés :
+- Une majorité des achats proviennent des utilisateurs ayant l'habitude d'acheter (indiquant une fidélité accrue).
+- Les achats via SMS ont également montré une tendance importante, ce qui pourrait indiquer des actions marketing efficaces.
+
+Cela permet d'ajuster les stratégies de fidélisation et de marketing pour maximiser les ventes par SMS et encourager les achats répétés.
 
 
 ---
