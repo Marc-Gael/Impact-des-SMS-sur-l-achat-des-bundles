@@ -100,7 +100,7 @@ Pour visualiser les tendances des achats des abonnés, un Tableau Croisé Dynami
 ### Capture d'écran du TCD :
 Voici une vue du TCD montrant la répartition des achats par type :
 
-![TCD Abonnés](C:\Users\DELL\Documents\Visual Studio 2017\Projects\Transformation de données - Power Query\Projet-de-Transformation-de-Donnees--Power-Query\Assets\TCD.png)
+![TCD Abonnés](Assets\TCD.png)
 
 ### Analyse du TCD
 Le TCD a permis d'identifier les comportements des abonnés :
