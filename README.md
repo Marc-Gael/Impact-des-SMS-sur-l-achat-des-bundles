@@ -93,25 +93,23 @@ C'est plus qu'un simple projet de transformation de données, c'est une véritab
 
 Pour visualiser les tendances des achats des abonnés, un Tableau Croisé Dynamique a été créé. Ce TCD permet de distinguer les abonnés ayant acheté par habitude de ceux ayant acheté grâce à un SMS. Voici la structure du TCD :
 
-- **Lignes :** Abonnés
-- **Colonnes :** Type d'achat ("Habitude" ou "SMS")
-- **Valeurs :** Nombre d'achats
+- **Lignes :** Les dates de dernières facturation
+- **Colonnes :** Source ("Habitude" ou "SMS")
+- **Valeurs :** Nombre d'achats (msisdn)
 
 ### Capture d'écran du TCD :
 Voici une vue du TCD montrant la répartition des achats par type :
 
-![TCD Abonnés](chemin/vers/ton/image.png)
+![TCD Abonnés](assets/TCD.png)
 
 ### Analyse du TCD
 Le TCD a permis d'identifier les comportements des abonnés :
-- Une majorité des achats proviennent des utilisateurs ayant l'habitude d'acheter (indiquant une fidélité accrue).
-- Les achats via SMS ont également montré une tendance importante, ce qui pourrait indiquer des actions marketing efficaces.
-
-Cela permet d'ajuster les stratégies de fidélisation et de marketing pour maximiser les ventes par SMS et encourager les achats répétés.
+- Une majorité des achats proviennent des utilisateurs recevant un SMS (indiquant des actions marketing efficaces)
+- Les achats par habitude ont également montré une petite tendance, ce qui pourrait indiquer une absence de fidélisation
 
 
 ---
 
 ## 📝 Conclusion
 
-Ce projet a permis de mieux comprendre les tendances des abonnés à nos services et d'identifier les périodes d'achat clés.
+Ce projet a permis de mieux comprendre les tendances des abonnés à nos services et d'identifier les moments d'achat clés.
