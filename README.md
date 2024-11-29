@@ -23,10 +23,11 @@ Avant de commencer toute transformation, nous avons pris soin de faire les joint
 Une fois les dates alignées, nous avons calculé le nombre de mois qui sépare la date de la première souscription de la date de la dernière souscription. En associant ce chiffre au nombre d'achat du client, nous pouvons savoir si ce dernier est actif ou pas, et trouver une stratégie pour le relancer.
 A côté de cela, nous avons vérifier si la date "Date Last Billed" correspond à l'une des dates de campagne SMS.
 
-//Calucler le nombre de mois qui sépare la date de la première souscription de la date de la dernière souscription
 ```m
+//Calucler le nombre de mois qui sépare la date de la première souscription de la date de la dernière souscription
 = (Date.Year([Date Last Billed]) - Date.Year([Date Joined])) * 12 + (Date.Month([Date Last Billed]) - Date.Month([Date Joined]))
 
+```m
 // Vérification si la date "Date Last Billed" correspond à l'une des dates spécifiées:
 let
     Resultat = if List.Contains({#date(2024, 11, 1), #date(2024, 11, 2), #date(2024, 11, 3), #date(2024, 11, 4), #date(2024, 11, 5), #date(2024, 11, 6), #date(2024, 11, 7), #date(2024, 11, 8), #date(2024, 11, 9), #date(2024, 11, 10), #date(2024, 11, 11), #date(2024, 11, 12), #date(2024, 11, 13), #date(2024, 11, 14), #date(2024, 11, 15), #date(2024, 11, 16), #date(2024, 11, 17), #date(2024, 11, 18), #date(2024, 11, 19), #date(2024, 11, 20), #date(2024, 11, 21), #date(2024, 11, 22), #date(2024, 11, 23), #date(2024, 11, 24), #date(2024, 11, 25)}, [Date Last Billed]) then "SMS" else "Habitude"
